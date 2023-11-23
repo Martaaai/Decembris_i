@@ -1,7 +1,8 @@
 #Izveidojiet Python programmu, kas izmanto while ciklu, lai atrastu pirmo skaitli, kura kvadrāts ir lielāks par 1000.
-skait=0
-while skait>=1000:
-        print(skait)
+skaitlis=1
+while skaitlis**2<=1000:
+    skaitlis+=1
+    print("pirmais skaitlis, kura kvadrāts ir lielāks par 1000,ir"skaitlis)
     
 
 
